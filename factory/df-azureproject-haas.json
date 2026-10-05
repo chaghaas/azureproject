@@ -1,0 +1,15 @@
+{
+	"name": "df-azureproject-haas",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c1d2dd85-3425-43a9-aa79-07781b4571b0",
+		"tenantId": "84d04f91-6ab2-4bb6-a58b-d09e92dc9be0"
+	}
+}
