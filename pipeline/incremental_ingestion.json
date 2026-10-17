@@ -278,7 +278,10 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"container": "bronze",
-										"folder": "cdc",
+										"folder": {
+											"value": "@pipeline().parameters.table",
+											"type": "Expression"
+										},
 										"file": "empty.json"
 									}
 								}
@@ -289,7 +292,10 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"container": "bronze",
-										"folder": "cdc",
+										"folder": {
+											"value": "@pipeline().parameters.table",
+											"type": "Expression"
+										},
 										"file": "cdc.json"
 									}
 								}
