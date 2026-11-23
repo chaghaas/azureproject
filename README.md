@@ -94,8 +94,6 @@ Before transforming data in Databricks, enterprise-grade access control and gove
 * Configured **Storage Credentials** and **External Locations** for `bronze`, `silver`, and `gold` containers.
 * Structured the three-level namespace under catalog `spotify_cata` (`spotify_cata.silver.*` and `spotify_cata.gold.*`).
 
-![Unity Catalog Explorer & External Locations](screenshots/04_unity_catalog_setup.png)
-
 ---
 
 ## 🥈 Silver Layer: Streaming Transformations & Metadata-Driven SQL
