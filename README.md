@@ -17,7 +17,7 @@ Key engineering patterns demonstrated in this repository include **dynamic metad
 
 ## 🏗️ System Architecture
 
-![End-to-End Architecture Diagram](screenshots/01_architecture_diagram.png)
+
 
 ### Data Flow Summary
 1. **Source:** Cloud-hosted **Azure SQL Database** storing operational Spotify tables (`DimUser`, `DimArtist`, `DimTrack`, `DimDate`, `FactStream`).
