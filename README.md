@@ -124,7 +124,7 @@ The Gold layer delivers an analytics-ready **Star Schema** (`FactStream` joined 
 * **Fact Table Upserts (SCD Type 1):** Configured `stored_as_scd_type=1` sequenced by `stream_timestamp` on `FactStream` for idempotent incremental upserts.
 * **Data Quality Expectations:** Enforced declarative validation rules using `@dlt.expect_all_or_drop` (e.g., `user_id IS NOT NULL`) to automatically filter malformed records before they reach downstream consumers.
 
-![Gold Layer Lakeflow DLT DAG Lineage](screenshots/07_gold_dlt_dag.png)
+<img width="1165" height="814" alt="image" src="https://github.com/user-attachments/assets/f3d36995-0a67-43fe-8a8c-cd5f9b0f19b2" />
 
 ---
 
@@ -136,7 +136,7 @@ To validate the entire pipeline under real-world conditions:
 3. Ran the Silver Auto Loader notebook—verifying checkpointing processed strictly the newly arrived Parquet files.
 4. Executed the Gold DLT pipeline—confirming **SCD Type 2** automatically expired modified records (populating `__END_AT`) and inserted the latest active versions (`__END_AT IS NULL`).
 
-![SCD Type 2 Historical Tracking Verification](screenshots/08_scd_type2_verification.png)
+<img width="1792" height="568" alt="image" src="https://github.com/user-attachments/assets/ba66c72d-e4d8-4d3d-b2e2-2db6eef935bc" />
 
 ---
 
