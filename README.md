@@ -66,7 +66,9 @@ The Bronze layer focuses on reliable, reusable ingestion from Azure SQL Database
 * **Automated Failure Alerting:** Integrated an **Azure Logic Apps** HTTP POST endpoint via an ADF `Web` activity to send Outlook email alerts containing `PipelineName` and `PipelineRunId` upon pipeline failure.
 * **Git CI/CD Workflow:** Configured ADF with GitHub using feature branches, Pull Requests to `main`, and automated ARM template publishing (`adf_publish`).
 
-![ADF Incremental Loop Pipeline](<img width="1841" height="973" alt="image" src="https://github.com/user-attachments/assets/e631f914-46a5-44f2-86a2-4c310362961d" />)
+## ADF Incremental Loop Pipeline
+
+<img width="1841" height="973" alt="image" src="https://github.com/user-attachments/assets/e631f914-46a5-44f2-86a2-4c310362961d" />
 
 ### Logic Apps 
 
