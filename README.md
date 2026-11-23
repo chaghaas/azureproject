@@ -31,6 +31,10 @@ Key engineering patterns demonstrated in this repository include **dynamic metad
 
 <img width="1831" height="995" alt="image" src="https://github.com/user-attachments/assets/7c091842-53c9-41ba-a562-445df86bd4c8" />
 
+## Containers
+
+<img width="1483" height="431" alt="image" src="https://github.com/user-attachments/assets/28f29762-8a86-4b24-bf28-2ddb9c628acb" />
+
 
 ## 🛠️ Tech Stack
 
@@ -62,8 +66,11 @@ The Bronze layer focuses on reliable, reusable ingestion from Azure SQL Database
 * **Automated Failure Alerting:** Integrated an **Azure Logic Apps** HTTP POST endpoint via an ADF `Web` activity to send Outlook email alerts containing `PipelineName` and `PipelineRunId` upon pipeline failure.
 * **Git CI/CD Workflow:** Configured ADF with GitHub using feature branches, Pull Requests to `main`, and automated ARM template publishing (`adf_publish`).
 
-![ADF Incremental Loop Pipeline](screenshots/02_adf_pipeline_design.png)
-![ADF Pipeline Execution & Logic App Alert](screenshots/03_adf_run_and_alert.png)
+![ADF Incremental Loop Pipeline](<img width="1841" height="973" alt="image" src="https://github.com/user-attachments/assets/e631f914-46a5-44f2-86a2-4c310362961d" />)
+
+### Logic Apps 
+
+<img width="1836" height="1006" alt="image" src="https://github.com/user-attachments/assets/7decf998-88e4-4cbe-a908-5bdfd12c0992" />
 
 ---
 
