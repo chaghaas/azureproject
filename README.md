@@ -110,6 +110,7 @@ The Silver layer cleanses, deduplicates, and standardizes raw Bronze data into *
   * **`DimDate` & `FactStream`:** Cleaned schemas and persisted streams with `trigger(once=True)` into Unity Catalog Delta tables.
 * **Metadata-Driven Dynamic SQL Views (Jinja2):** Developed a reusable **Jinja2** templating notebook that accepts a structured metadata configuration (tables, aliases, columns, and join conditions) and dynamically compiles and executes multi-table `LEFT JOIN` Spark SQL queries—accelerating ad-hoc business view delivery without writing repetitive SQL.
 
+https://github.com/chaghaas/azureproject/blob/d41cd7ac4a10a95e3c5d5942e7be735dbcc23169/AzureProject%20-%20databricks/spotify_dab/src/silver/silver_Dimensions.ipynb
 https://github.com/chaghaas/azureproject/blob/da127c8c995789d395bd18feface8af1921cb198/AzureProject%20-%20databricks/spotify_dab/Jinja/jinja_notebook.ipynb
 
 ---
