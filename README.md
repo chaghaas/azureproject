@@ -74,6 +74,16 @@ The Bronze layer focuses on reliable, reusable ingestion from Azure SQL Database
 
 <img width="1836" height="1006" alt="image" src="https://github.com/user-attachments/assets/7decf998-88e4-4cbe-a908-5bdfd12c0992" />
 
+### Incremental ingestion
+
+<img width="1793" height="991" alt="image" src="https://github.com/user-attachments/assets/30472c4d-242e-4093-b11c-3161d17fe85a" />
+
+### Bronze Data 
+
+<img width="1457" height="760" alt="image" src="https://github.com/user-attachments/assets/8a57f56f-deb8-433c-8de7-f45837e3917b" />
+<img width="1453" height="417" alt="image" src="https://github.com/user-attachments/assets/2a2277b9-a4b6-4de6-810e-88b102d2eea0" />
+
+
 ---
 
 ## 🔐 Data Governance: Unity Catalog Setup
