@@ -114,7 +114,7 @@ The Silver layer cleanses, deduplicates, and standardizes raw Bronze data into *
 
 https://github.com/chaghaas/azureproject/blob/d41cd7ac4a10a95e3c5d5942e7be735dbcc23169/AzureProject%20-%20databricks/spotify_dab/src/silver/silver_Dimensions.ipynb
 
-##Jinja
+## Jinja
 
 https://github.com/chaghaas/azureproject/blob/da127c8c995789d395bd18feface8af1921cb198/AzureProject%20-%20databricks/spotify_dab/Jinja/jinja_notebook.ipynb
 
@@ -132,7 +132,7 @@ The Gold layer delivers an analytics-ready **Star Schema** (`FactStream` joined 
 
 <img width="1165" height="814" alt="image" src="https://github.com/user-attachments/assets/f3d36995-0a67-43fe-8a8c-cd5f9b0f19b2" />
 
-## Gold Pipeline
+### Gold Pipeline
 
 https://github.com/chaghaas/azureproject/tree/81803a0913c1ff3af9c6cd52954d32f8c18269bb/AzureProject%20-%20databricks/spotify_dab/src/gold/SDP/transformations
 ---
