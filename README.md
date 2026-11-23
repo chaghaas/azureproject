@@ -110,7 +110,12 @@ The Silver layer cleanses, deduplicates, and standardizes raw Bronze data into *
   * **`DimDate` & `FactStream`:** Cleaned schemas and persisted streams with `trigger(once=True)` into Unity Catalog Delta tables.
 * **Metadata-Driven Dynamic SQL Views (Jinja2):** Developed a reusable **Jinja2** templating notebook that accepts a structured metadata configuration (tables, aliases, columns, and join conditions) and dynamically compiles and executes multi-table `LEFT JOIN` Spark SQL queries—accelerating ad-hoc business view delivery without writing repetitive SQL.
 
+## Silver notebook
+
 https://github.com/chaghaas/azureproject/blob/d41cd7ac4a10a95e3c5d5942e7be735dbcc23169/AzureProject%20-%20databricks/spotify_dab/src/silver/silver_Dimensions.ipynb
+
+##Jinja
+
 https://github.com/chaghaas/azureproject/blob/da127c8c995789d395bd18feface8af1921cb198/AzureProject%20-%20databricks/spotify_dab/Jinja/jinja_notebook.ipynb
 
 ---
@@ -127,6 +132,9 @@ The Gold layer delivers an analytics-ready **Star Schema** (`FactStream` joined 
 
 <img width="1165" height="814" alt="image" src="https://github.com/user-attachments/assets/f3d36995-0a67-43fe-8a8c-cd5f9b0f19b2" />
 
+## Gold Pipeline
+
+https://github.com/chaghaas/azureproject/tree/81803a0913c1ff3af9c6cd52954d32f8c18269bb/AzureProject%20-%20databricks/spotify_dab/src/gold/SDP/transformations
 ---
 
 ## ✅ End-to-End Incremental & SCD Type 2 Verification
@@ -140,27 +148,3 @@ To validate the entire pipeline under real-world conditions:
 <img width="1792" height="568" alt="image" src="https://github.com/user-attachments/assets/ba66c72d-e4d8-4d3d-b2e2-2db6eef935bc" />
 
 ---
-
-## 📂 Repository Structure
-
-```text
-├── adf/                          # Azure Data Factory pipelines, datasets & linked services (Git-integrated)
-├── source_scripts/
-│   ├── spotify_initial_load.sql  # Initial schema creation & seed data for Azure SQL DB
-│   ├── spotify_incremental.sql   # Incremental inserts/updates for end-to-end testing
-│   └── loop_input.json           # Dynamic parameter array for ADF ForEach pipeline
-├── databricks/
-│   ├── utils/
-│   │   └── transformations.py    # Reusable Python transformation classes
-│   ├── silver/
-│   │   └── silver_dimensions.py  # Auto Loader streaming & PySpark transformations
-│   ├── jinja/
-│   │   └── jinja_notebook.py     # Metadata-driven dynamic SQL generator using Jinja2
-│   └── gold/
-│       └── dlt/
-│           ├── dim_user.py       # DLT staging, Data Quality Expectations & SCD Type 2
-│           ├── dim_track.py      # DLT staging & SCD Type 2
-│           ├── dim_date.py       # DLT staging & SCD Type 2
-│           └── fact_stream.py    # DLT staging & SCD Type 1 Upsert
-├── screenshots/                  # Architecture & execution proof visuals
-└── README.md
