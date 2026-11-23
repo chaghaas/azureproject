@@ -27,6 +27,11 @@ Key engineering patterns demonstrated in this repository include **dynamic metad
 
 ---
 
+## Resource Group
+
+<img width="1831" height="995" alt="image" src="https://github.com/user-attachments/assets/7c091842-53c9-41ba-a562-445df86bd4c8" />
+
+
 ## 🛠️ Tech Stack
 
 | Category | Technology / Service | Purpose |
