@@ -112,11 +112,11 @@ The Silver layer cleanses, deduplicates, and standardizes raw Bronze data into *
 
 ## Silver notebook
 
-https://github.com/chaghaas/azureproject/blob/d41cd7ac4a10a95e3c5d5942e7be735dbcc23169/AzureProject%20-%20databricks/spotify_dab/src/silver/silver_Dimensions.ipynb
+[Silver Notebook](https://github.com/chaghaas/azureproject/blob/d41cd7ac4a10a95e3c5d5942e7be735dbcc23169/AzureProject%20-%20databricks/spotify_dab/src/silver/silver_Dimensions.ipynb)
 
 ## Jinja
 
-https://github.com/chaghaas/azureproject/blob/da127c8c995789d395bd18feface8af1921cb198/AzureProject%20-%20databricks/spotify_dab/Jinja/jinja_notebook.ipynb
+[JINJA](https://github.com/chaghaas/azureproject/blob/da127c8c995789d395bd18feface8af1921cb198/AzureProject%20-%20databricks/spotify_dab/Jinja/jinja_notebook.ipynb)
 
 ---
 
