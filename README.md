@@ -134,7 +134,8 @@ The Gold layer delivers an analytics-ready **Star Schema** (`FactStream` joined 
 
 ## Gold Pipeline
 
-https://github.com/chaghaas/azureproject/tree/81803a0913c1ff3af9c6cd52954d32f8c18269bb/AzureProject%20-%20databricks/spotify_dab/src/gold/SDP/transformations
+[Gold_Pipeline]([spotify_dab/Jinja/jinja_notebook.ipynb](https://github.com/chaghaas/azureproject/tree/81803a0913c1ff3af9c6cd52954d32f8c18269bb/AzureProject%20-%20databricks/spotify_dab/src/gold/SDP/transformations))
+
 ---
 
 ## ✅ End-to-End Incremental & SCD Type 2 Verification
